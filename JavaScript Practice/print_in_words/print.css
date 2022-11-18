@@ -1,0 +1,31 @@
+.container {
+  /* margin-left: 40%;
+  margin-top: 10%; */
+  margin: 90px;
+  padding: 20px;
+  border: 3px solid black;
+  width: 40%;
+}
+
+.btn {
+  /* margin: 80px; */
+  align-items: center;
+  justify-content: center;
+  justify-content: space-around;
+  margin: 64px;
+  display: flex;
+  font-size: 21px;
+}
+
+.print_no {
+  margin: 20px;
+  width: 80px;
+  height: 40px;
+  justify-content: space-around;
+}
+
+p {
+  font-size: 20px;
+  display: flex;
+  justify-content: center;
+}
