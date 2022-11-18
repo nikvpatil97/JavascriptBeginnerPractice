@@ -1,0 +1,50 @@
+body {
+  border: 4px solid black;
+  font-family: sans-serif;
+}
+header h2 {
+  background-color: #f7f7f7;
+  text-transform: uppercase;
+  text-align: center;
+  font-size: 20px;
+  line-height: 1.4;
+}
+
+.price {
+  font-size: 24px;
+}
+
+.free_ship {
+  color: #777;
+  text-transform: uppercase;
+  font-size: 12px;
+  font-weight: bold;
+}
+.more_inf:link,
+.more_inf:visited {
+  color: black;
+}
+.more_inf:hover,
+.more_inf:active {
+  text-decoration: none;
+}
+
+.prod_detail {
+  text-transform: uppercase;
+  font-size: 16px;
+}
+.list_detail {
+  list-style: square;
+}
+.cart {
+  border: none;
+  background-color: black;
+  color: white;
+  font-size: 20px;
+  text-transform: uppercase;
+  cursor: pointer;
+}
+.cart:hover {
+  background-color: white;
+  color: black;
+}

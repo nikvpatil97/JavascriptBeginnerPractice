@@ -1,0 +1,134 @@
+* {
+  padding: 0;
+  margin: 0;
+}
+
+.container {
+  /* padding: 20px; */
+
+  margin-left: auto;
+  margin-right: auto;
+  margin: 0 auto;
+}
+
+body {
+  line-height: 1.4;
+  font-family: sans-serif;
+  /* margin: 50px auto; */
+}
+.product {
+  border: 4px solid black;
+  width: 825px;
+  margin: 50px auto;
+}
+h2::before {
+  content: "SALE";
+  background-color: red;
+  color: white;
+  padding: 7px 15px;
+  margin: 10px;
+  font-size: 12px;
+  letter-spacing: 2px;
+  /* width: 40px; */
+  font-weight: bold;
+  display: inline-block;
+  position: absolute;
+  top: -30px;
+  left: -34px;
+}
+.product_title {
+  background-color: #f7f7f7;
+  text-transform: uppercase;
+  text-align: center;
+  font-size: 20px;
+  padding: 15px;
+  position: relative;
+}
+
+.price {
+  font-size: 24px;
+  padding: 5px;
+  margin-bottom: 20px;
+}
+
+.free_ship {
+  color: #777;
+  text-transform: uppercase;
+  font-size: 12px;
+  font-weight: bold;
+  margin-bottom: 20px;
+}
+.ready_dressup {
+  margin-bottom: 10px;
+}
+.more_inf {
+  margin-bottom: 30px;
+  display: inline-block;
+}
+.more_inf:link,
+.more_inf:visited {
+  color: black;
+}
+.more_inf:hover,
+.more_inf:active {
+  text-decoration: none;
+}
+
+.color {
+  background-color: black;
+  height: 22px;
+  width: 22px;
+  display: inline-block;
+  margin-right: 10px;
+}
+
+.color-blue {
+  background-color: rgb(22, 30, 149);
+}
+.color-red {
+  background-color: rgb(184, 15, 15);
+}
+.color-yellow {
+  background-color: rgb(227, 203, 48);
+}
+.color-green {
+  background-color: rgb(82, 219, 67);
+}
+.color-brown {
+  background-color: rgb(122, 71, 71);
+}
+
+.prod_detail {
+  text-transform: uppercase;
+  font-size: 16px;
+  margin-top: 20px;
+  margin-bottom: 10px;
+}
+
+.list_detail {
+  list-style: square;
+  margin-left: 20px;
+}
+
+.list_detail li {
+  margin-bottom: 10px;
+}
+/* button {
+  width: 100%;
+  border-top: 5px solid black;
+} */
+.cart {
+  padding: 5px;
+  height: 40px;
+  width: 100%;
+  border-top: 5px solid black;
+  background-color: black;
+  color: white;
+  font-size: 20px;
+  text-transform: uppercase;
+  cursor: pointer;
+}
+.cart:hover {
+  background-color: white;
+  color: black;
+}
