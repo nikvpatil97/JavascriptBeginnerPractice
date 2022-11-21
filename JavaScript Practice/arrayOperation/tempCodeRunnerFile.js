@@ -1,8 +1,5 @@
-for (let i = 0; i < arr.length; i++) {
-//   arr[i] = arr[i] * 3;
-//   // console.log(arr[i]);
-// }
+et arr5 = [13, 11, 2, 10, 14, 9];
 
-// console.log("Tripple Array Element : ");
+// let res2 = arr4.sort((a, b) => (b - a));
 
-// console.log(arr);
+// console.log("Descending order :", res2);
