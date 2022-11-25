@@ -2,7 +2,7 @@
 const btn = document.getElementById('add_btn');
 let arr = [];
 
-// console.log(addBtn);
+console.log(addBtn);
 btn.addEventListener("click", () => {
   let obj = {};
 
@@ -14,8 +14,9 @@ btn.addEventListener("click", () => {
   obj["lastName"] = lastName.value;
   obj["age"] = age.value;
 
-  //obj= { firstName:   ,
-  //   lastName: ,
+  //   obj = {
+  //     firstName:   ,
+  //     lastName: ,
   //     age:
   // }
 
@@ -25,10 +26,10 @@ btn.addEventListener("click", () => {
     printTable(obj);
   }
 
-  // arr.push(obj);
-  // console.log(arr);
+  arr.push(obj);
+  console.log(arr);
 
-  // printTable(obj);
+  printTable(obj);
 
   firstName.value = '';
   lastName.value = '';
@@ -59,32 +60,52 @@ function printTable(obj) {
 }
 
 
-// let per = {
-//   fname: "Nikia",
-//   lname: "Birari",
-//   age: 25,
-// }
+let per = {
+  fname: "Nikia",
+  lname: "Birari",
+  age: 25,
+}
 
-// arr.push(per);
-// arr = [  {
-//fname: "Nikia",
-//   lname: "Birari",
-//     age: 25,
-// },  {
-// fname: "Nikia",
-//   lname: "Birari",
-//     age: 25,
-// }]
-
-
+arr.push(per);
+arr = [{
+  fname: "Nikia",
+  lname: "Birari",
+  age: 25,
+}, {
+  fname: "Nikia",
+  lname: "Birari",
+  age: 25,
+}]
 
 
+function displayTime() {
+  time = new Date;
+  console.log(time);
+  document.getElementById("time").innerHTML = time;
+}
+setInterval(displayTime, 1000);
 
 
+var b = 100;
+function widthinc() {
+  b = b + 100;
+  var target = document.getElementById("test");
+  target.style.width = b + "px";
+}
+// setTimeout(widthinc, 3000);
+var stop = setInterval(widthinc, 1000);
 
+setTimeout(function () {
+  clearInterval(stop);
+}, 5000);
 
+var a = 0;
+function blockMove() {
+  a = a + 10;
+  document.getElementById("test").style.marginLeft = a + "px";
+}
 
-
+setInterval(blockMove, 1000);
 
 
 
